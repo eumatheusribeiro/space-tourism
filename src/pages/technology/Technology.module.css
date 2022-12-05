@@ -1,0 +1,21 @@
+.technology {
+    background-image: url('../../assets/technology/background-technology-desktop.jpg');
+    color: #e7e7e7;
+    padding: 2rem 0;
+    height: auto;
+}
+
+.main {
+    display: block;
+    align-items: center;
+    padding: 0 8rem;
+}
+
+.mainTitle {
+    margin: 4rem 0 1rem;
+}
+
+.mainTitle span {
+    color: #7c7b7b;
+    margin-right: 1rem;
+}

@@ -1,0 +1,32 @@
+.Tabs {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+  }
+
+  .center {
+    display: flex;
+    justify-content: end;
+    margin-right: 13rem;
+  }
+  
+  ul.nav {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 2rem;
+  }
+
+  .nav .active {
+    border-bottom: 2px solid #ebe7e7b8;
+  }
+
+  ul.nav li {
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+  }
+
+  .outlet {
+    display: flex;
+    justify-content: space-around;
+  }

@@ -1,0 +1,32 @@
+.home {
+    background-image: url('../../assets/home/background-home-desktop.jpg');
+    color: #e7e7e7;
+    padding: 2rem 0;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 0 8rem;
+    margin-top: 6rem;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.explore {
+    background: #e7e7e7;
+    color: #262626;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}

@@ -1,0 +1,27 @@
+.left img {
+    height: 22rem;
+}
+
+.title {
+    font-size: 5rem;
+}
+
+.text {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ebe7e7b8;
+}
+
+.infos {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+    margin-top: 1rem;
+    font-size: .7rem;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.infos .destaque {
+    font-size: 1.5rem;
+    margin-top: 0.2rem;
+}

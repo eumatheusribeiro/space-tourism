@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 3rem;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+}
+
+.paragrafo {
+    margin-bottom: 7rem;
+    white-space: nowrap;
+}
+
+.right {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.right img {
+    height: 64vh;
+    position: absolute;
+    right: 0;
+}
+
+input[type="radio"] {
+    background-color: #343333;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin-right: 10px;
+    position: relative;
+    width: 10px;
+    -webkit-appearance: none;
+}
+input[type="radio"]:checked {
+    background-color: #ebe7e7e8;
+}
